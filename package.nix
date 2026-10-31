@@ -36,6 +36,7 @@ stdenv.mkDerivation rec {
     qt5.qtbase
     qt5.qtdeclarative
     qt5.qtquickcontrols2
+    qt5.qtgraphicaleffects
   ];
 
   cmakeFlags = [
